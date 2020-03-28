@@ -1,0 +1,72 @@
+[
+    {
+        "rank": "1.1",
+        "name": "Spieler 1-1",
+        "ttr": 1700
+    },
+    {
+        "rank": "1.2",
+        "name": "Spieler 1-2",
+        "ttr": 1650
+    },
+    {
+        "rank": "1.3",
+        "name": "Spieler 1-3",
+        "ttr": 1600
+    },
+    {
+        "rank": "1.4",
+        "name": "Spieler 1-4",
+        "ttr": 1550
+    },
+    {
+        "rank": "2.1",
+        "name": "Spieler 2-1",
+        "ttr": 1500
+    },
+    {
+        "rank": "2.2",
+        "name": "Spieler 2-2",
+        "ttr": 1450
+    },
+    {
+        "rank": "2.3",
+        "name": "Spieler 2-3",
+        "ttr": 1400
+    },
+    {
+        "rank": "2.4",
+        "name": "Spieler 2-4",
+        "ttr": 1350
+    },
+    {
+        "rank": "2.5",
+        "name": "Spieler 2-5",
+        "ttr": 1350
+    },
+    {
+        "rank": "2.6",
+        "name": "Spieler 2-6",
+        "ttr": 1300
+    },
+    {
+        "rank": "2.7",
+        "name": "Spieler 2-7",
+        "ttr": 1250
+    },
+    {
+        "rank": "2.8",
+        "name": "Spieler 2-8",
+        "ttr": 1200
+    },
+    {
+        "rank": "2.9",
+        "name": "Spieler 2-9",
+        "ttr": 1150
+    },
+    {
+        "rank": "2.10",
+        "name": "Spieler 2-10",
+        "ttr": 1100
+    }
+]
