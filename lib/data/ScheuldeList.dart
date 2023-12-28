@@ -1,6 +1,6 @@
 import 'package:flutterteammanagement/views/MySchedulePageEntry.dart';
 
-final List<MySchedulePageEntry> ScheduleList = <MySchedulePageEntry>[
+final List<MySchedulePageEntry> scheduleList = <MySchedulePageEntry>[
   MySchedulePageEntry(
       result: '1:9',
       start: "26.03.2020 21:00 Uhr",
@@ -71,10 +71,9 @@ final List<MySchedulePageEntry> ScheduleList = <MySchedulePageEntry>[
       start: "26.03.2020 21:00 Uhr",
       team1: "TV Möglingen",
       team2: "Gegner 6"),
-        MySchedulePageEntry(
+  MySchedulePageEntry(
       result: '9:1',
       start: "26.03.2020 21:00 Uhr",
       team1: "TV Möglingen",
       team2: "Gegner 7"),
-
 ];

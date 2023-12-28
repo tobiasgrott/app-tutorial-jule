@@ -6,7 +6,11 @@ class MySchedulePageEntry extends StatelessWidget {
   final String team2;
   final String result;
 
-  MySchedulePageEntry({this.start, this.team1, this.team2, this.result});
+  MySchedulePageEntry(
+      {required this.start,
+      required this.team1,
+      required this.team2,
+      required this.result});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +18,7 @@ class MySchedulePageEntry extends StatelessWidget {
         padding: EdgeInsets.all(8),
         child: Column(children: <Widget>[
           Row(children: <Widget>[
-            Text(this.start, textScaleFactor: 0.5),
+            Text(this.start, textScaler: TextScaler.linear(0.5)),
           ]),
           Row(children: <Widget>[
             Expanded(child: Text(this.team1), flex: 4),

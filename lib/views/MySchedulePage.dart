@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutterteammanagement/data/NavigationList.dart';
 import 'package:flutterteammanagement/data/ScheuldeList.dart';
 
 class MySchedulePage extends StatefulWidget {
-  MySchedulePage({Key key, this.title}) : super(key: key);
-  final String title;
+  MySchedulePage({Key? key, this.title}) : super(key: key);
+  final String? title;
 
   @override
   _MySchedulePageState createState() => _MySchedulePageState();
@@ -15,9 +14,9 @@ class _MySchedulePageState extends State<MySchedulePage> {
   Widget build(BuildContext context) {
     return ListView.builder(
         padding: const EdgeInsets.all(8),
-        itemCount: ScheduleList.length,
+        itemCount: scheduleList.length,
         itemBuilder: (BuildContext context, int index) {
-          return ScheduleList[index];
+          return scheduleList[index];
         });
   }
 }
